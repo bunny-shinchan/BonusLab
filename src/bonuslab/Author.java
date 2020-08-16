@@ -17,13 +17,13 @@ Sudhanshu Verma - (Inheritance)The Author class is entending the the Person clas
 
 public class Author extends Person{
  /*
-    * Sudhanshu - (Composition) 
+    * Sudhanshu Verma- (Composition) 
     * Book class cannot exist withour an author 
     * 
     */
     private List books = new ArrayList<>();
      /* 
-    * (Constructor) with 4 parameters
+    * Sudhanshu Verma (Constructor) with 4 parameters
     */
     public Author(String name, String email, Gender gender,
             String pubName)
@@ -33,6 +33,7 @@ public class Author extends Person{
         this.gender = gender;
         this.publisherName = pubName;
     }
+    //Sudhanshu Verma =Add method
    // we add book to books list which is a composition 
     public void addBook(Book book)
     {
